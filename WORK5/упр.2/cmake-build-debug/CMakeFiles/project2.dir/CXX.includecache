@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Admin/CLionProjects/project2/Energy.cpp
+Energy.h
+C:/Users/Admin/CLionProjects/project2/Energy.h
+
+C:/Users/Admin/CLionProjects/project2/Energy.h
+vector
+-
+iostream
+-
+windows.h
+-
+string
+-
+cstdlib
+-
+math.h
+-
+

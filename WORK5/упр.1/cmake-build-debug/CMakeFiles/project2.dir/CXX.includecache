@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Admin/CLionProjects/project2/Tank.h
+vector
+-
+iostream
+-
+windows.h
+-
+string
+-
+cstdlib
+-
+
+C:/Users/Admin/CLionProjects/project2/main.cpp
+vector
+-
+iostream
+-
+windows.h
+-
+string
+-
+cstdlib
+-
+Tank.h
+C:/Users/Admin/CLionProjects/project2/Tank.h
+
