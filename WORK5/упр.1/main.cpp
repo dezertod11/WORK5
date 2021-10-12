@@ -57,7 +57,7 @@ int main()
 
     switch (want) {
         case 1:
-            T34.print();
+            cout << T34 << endl;
             break;
         case 2:
             LEOPARD.print();

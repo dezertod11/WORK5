@@ -23,15 +23,15 @@ Tank::~Tank() {
     cout << "A tank was deleted!" << endl;
 
 }
-string Tank::getName(){
+string Tank::getName() const{
     return name;
 }
-string Tank::getNation(){
+string Tank::getNation() const{
     return nation;
 }
-double Tank::getSpeed(){
+double Tank::getSpeed() const{
     return speed;
 }
-double Tank::getPrice(){
+double Tank::getPrice() const{
     return price;
 }

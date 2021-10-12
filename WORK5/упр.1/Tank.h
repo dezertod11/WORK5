@@ -25,10 +25,10 @@ public:
     Tank(string _name, string _nation, double _speed, double _price);
     void print();
     ~Tank();
-    string getName();
-    string getNation();
-    double getSpeed();
-    double getPrice();
+    string getName() const;
+    string getNation() const;
+    double getSpeed() const;
+    double getPrice() const;
 };
 
 
